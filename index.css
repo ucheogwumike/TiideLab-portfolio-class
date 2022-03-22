@@ -431,7 +431,7 @@ fill: peru;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 40vh;
+/*         height: 40vh; */
         margin: 0px;
 
         backdrop-filter: blur(1rem);
