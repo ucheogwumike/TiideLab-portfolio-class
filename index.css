@@ -473,7 +473,7 @@ fill: peru;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 0;
 }
 
     .place-of-work-wrapper{
