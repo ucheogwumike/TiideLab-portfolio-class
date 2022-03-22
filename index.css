@@ -432,7 +432,7 @@ fill: peru;
     }
 
     .navlinks-wrapper{
-
+        position:absolute;
         inset: 0 0 0 30%;
         background-color: hsl(0 0% 100% / 0.1);;
         display: flex;
