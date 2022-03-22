@@ -473,6 +473,16 @@ fill: peru;
         flex-direction: column;
         justify-content: space-around;
     }
+    
+    .place-of-work-pill:hover{
+    position: relative;
+    bottom: 0px;
+    
+    background-color: #005A9C;
+    cursor: pointer;
+    
+    box-shadow:0 4px 8px 0  rgba(0, 0,0, 0.2);
+}
 
     .service-card-wrapper{
         display: flex;
