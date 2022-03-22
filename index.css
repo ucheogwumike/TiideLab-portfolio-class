@@ -475,9 +475,7 @@ fill: peru;
     }
     
     .place-of-work-pill:hover{
-    position: relative;
-    
-    
+    position: static;
     background-color: #005A9C;
     cursor: pointer;
     
