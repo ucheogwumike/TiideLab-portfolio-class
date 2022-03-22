@@ -409,7 +409,7 @@ fill: peru;
     display: none;}  
 
 @media (max-width:35em){
-    html{
+    body{
         overflow-x: hidden;
     }
     .header-content-wrapper{
