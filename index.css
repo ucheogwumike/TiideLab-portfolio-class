@@ -263,7 +263,7 @@ main{
 }
 /* chrome */
 .stack-progress::-webkit-progress-bar{
-    background-color: white;
+    background-color:#005A9C ;
     border-radius:100px;
 }
 
@@ -273,7 +273,7 @@ main{
 }
 /* firefox */
 .stack-progress::-moz-progress-bar{
-    background-color: white;
+    background-color: #005A9C;
     border-radius:100px;
 }
 /* IE10 */
@@ -413,13 +413,6 @@ fill: peru;
     display: none;}  
 
 @media (max-width:35em){
-<<<<<<< HEAD
-
-=======
-    body{
-        overflow-x: hidden;
-    }
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
     .header-content-wrapper{
         display: flex;
         justify-content: space-between;
@@ -436,33 +429,17 @@ fill: peru;
     }
 
     .navlinks-wrapper{
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
         inset: 0 0 0 30%;
         background-color: hsl(0 0% 100% / 0.1);;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-<<<<<<< HEAD
         height: 40vh;
         margin: 0px;
         
         backdrop-filter: blur(1rem);
         transform: translateX(100%);
         transition: transform 350ms ease-out;
-=======
-/*         height: 40vh;  */
-        margin: 0px;
-
-        backdrop-filter: blur(1rem);
-        transform: translateX(100%);
-        transition: transform 350ms ease-out;
-        padding:2rem 0;
-        z-index:3000;
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
     }
 
     .navlinks-wrapper[data-visible="true"]{
@@ -484,38 +461,12 @@ fill: peru;
     .burger svg{
         fill: #005A9C;
     }
-<<<<<<< HEAD
-=======
-    
-    .hero-wrapper{
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    top:40%;
-    right:10%;
-    
-}
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
 
     .place-of-work-wrapper{
         display:flex ;
         flex-direction: column;
         justify-content: space-around;
     }
-<<<<<<< HEAD
-=======
-    
-    .place-of-work-pill:hover{
-    position: static;
-    background-color: #005A9C;
-    cursor: pointer;
-    
-    box-shadow:0 4px 8px 0  rgba(0, 0,0, 0.2);
-}
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
 
     .service-card-wrapper{
         display: flex;
@@ -524,8 +475,4 @@ fill: peru;
 }
 
 
-<<<<<<< HEAD
  
-=======
- 
->>>>>>> 9542d660aa6d9e5b99b69317bdd1ac8886f6d895
