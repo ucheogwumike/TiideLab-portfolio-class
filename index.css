@@ -35,12 +35,14 @@ header{
 }
 
 .header-content-wrapper{
-     position: relative; 
+    position:relative; 
     z-index: 1; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
+    margin-top: 0px;
+    /* top: 0; */
 }
 
 .logo{
@@ -137,7 +139,130 @@ color:#005A9C  ;
 main{
     margin-top: 50px;
 }
+@keyframes example {
+    from {gap:10px;}
+    to {gap:20px;}
+  }
+  @keyframes example {
+    from {margin:0px;}
+    to {margin:5px;}
+  }
 
+
+.tiide{
+    /* animation-name: example; */
+    /* animation-duration: 4s; */
+    height: 80vh;
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    gap:1px;
+    color: bisque;
+}
+.tiide >div:hover{
+    
+    animation-name: example;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.japan.one{
+    
+    background-color: brown;
+    background: url('./IMG_3022.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+ 
+}
+
+
+.japan.two{
+   grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: blue;
+    background-image: url('./IMG_3034.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.japan.three{
+    
+     
+     background-color: green;
+     background-image: url('./IMG_3021.JPG');
+     background-size:cover;
+     background-repeat: no-repeat;
+     
+ }
+ .japan.five{
+    
+     
+    background-color: green;
+    background-image: url('./IMG_3016.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.japan.six{
+    
+     
+    background-color: green;
+    background-image: url('./IMG_3040.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.japan.eight{
+    
+     
+    background-color: green;
+    background-image: url('./IMG_3157.JPG');
+    background-size: cover;
+    background-position: right;
+    
+}
+.japan.seven{
+    
+     
+    background-color: green;
+    background-image: url('./IMG_3187.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+ .japan.four{
+    
+     grid-row-start: 2;
+     grid-row-end: 4;
+     background-color: green;
+     background-image: url('./IMG_3014.JPG');
+     background-size:cover;
+     background-repeat: no-repeat;
+     
+ } 
+ .japan.nine{
+    
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: green;
+    background-image: url('./IMG_3173.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+} 
+
+.japan{
+    background-color: black;
+    /* width: 200px;
+    height: 200px; */
+}
 .section{
     padding: 40px;
 }
@@ -418,9 +543,9 @@ fill: peru;
         justify-content: space-between;
         padding: 0%;
         align-items: flex-start;
-        overflow-x: hidden;
-        
-        
+        overflow: hidden;
+        /* margin-top: 1px; */
+        /* height: 120vh; */
     }
     .logo{
         color:#005A9C;
@@ -453,7 +578,7 @@ fill: peru;
         /* background-image: url("IMG_20190404_125922.jpg"); */
         background-size: contain;
         top:1rem;
-        right:1rem;
+        right:-1rem;
         width:3rem;
         border:0;
         aspect-ratio: 1;}
@@ -461,7 +586,9 @@ fill: peru;
     .burger svg{
         fill: #005A9C;
     }
-
+    .hero-wrapper{
+        margin-top: -70px;
+    }
     .place-of-work-wrapper{
         display:flex ;
         flex-direction: column;
@@ -472,6 +599,69 @@ fill: peru;
         display: flex;
         flex-direction: column;
     }
+   
+
+    .tiide{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+        gap:10px;
+        
+        /* height: 300vh; */
+       
+    }
+    
+    .japan.two{
+        grid-column:auto ;
+        grid-row: auto;
+        background-color:yellow;
+       
+        
+    }
+    .japan.one{
+        
+        grid-column:auto;
+        grid-row: auto;
+        
+        background-color: brown;
+        
+    }
+    .japan.four{
+        
+        grid-column:auto;
+        grid-row: auto;
+        
+        background-color: brown;
+        
+    }
+    .japan.three{
+        
+        grid-column:auto;
+        grid-row: auto;
+        
+        background-color: brown;
+        
+    }
+    .japan.five{
+        
+        grid-column:auto;
+        grid-row: auto;
+        
+        background-color: brown;
+        
+    }
+    .japan.nine{
+        
+        grid-column:auto;
+        grid-row: auto;
+        
+        background-color: brown;
+        
+    }
+
+    /* .about-me{
+        height: 350vh;
+    } */
 }
 
 
