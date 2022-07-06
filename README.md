@@ -1,5 +1,2 @@
 # TiideLab-portfolio-class![portfolio1](https://user-images.githubusercontent.com/27896944/159389767-487cc845-cb6c-4f68-94a3-570982139344.jpg)
-![tiide2](https://user-images.githubusercontent.com/27896944/159390183-e1e7f722-2113-4e73-8b3d-b784876ebad6.png)
-![tiide2](https://user-images.githubusercontent.com/27896944/159390655-06722171-0977-49d5-bc69-78d10b5e93a9.png)
-
-![tiide2](https://user-images.githubusercontent.com/27896944/159390918-a4ef173c-0cd7-411f-abb1-08234e5c9467.png)
+![image](https://user-images.githubusercontent.com/27896944/177476425-c5429dd8-8d5c-4874-9c2d-ec8c9cd927f3.png)
